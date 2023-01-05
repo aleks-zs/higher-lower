@@ -3,7 +3,7 @@
 The aim of the game is to set high score by guessing which instagram user has higher number of followers.
 Based on the selected choice player either earns a point and continues the game or does not. 
 
-## To play:
+### To play:
 Answer either A or B
 
 ### To start:
