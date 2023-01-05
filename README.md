@@ -7,6 +7,7 @@ Based on the selected choice a player either earns a point and continues the gam
 Answer either A or B
 
 ### To start:
-Prerequisite Python 3.x (written with 3.9.6)
+Prerequisites:
+Python 3.x (written with 3.9.6)
 1. Clone repository
 2. run 'python main.py'
