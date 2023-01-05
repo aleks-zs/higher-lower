@@ -1,8 +1,8 @@
-from art import logo, vs
+from art import *
 from game_data import data
 from user import User
 import random
-import os
+import util as game_util
 
 
 class Game:
@@ -47,6 +47,8 @@ class Game:
 
         user_choice = input("Who has more followers? Type 'A' or 'B' :")
 
+        game_util.clear_screen()
+
         if user1.follower_count > user2.follower_count and user_choice == 'A':
             self.add_to_counter()
             self.right_guess_user = user1
@@ -57,15 +59,14 @@ class Game:
             self.end_game()
 
     def game_initial_step(self):
+        game_util.clear_screen()
         print(logo)
         user1 = self.select_random_user_from_list()
         user2 = self.select_random_user_from_list(user1.name)
         self.compare_users(user1, user2)
-        os.system('clear')
 
     def game_step(self):
         print(logo)
         print("You are right! Current score: " + str(self.get_counter()))
         user2 = self.select_random_user_from_list(self.right_guess_user.name)
         self.compare_users(self.right_guess_user, user2)
-        os.system('clear')
