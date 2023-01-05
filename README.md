@@ -10,4 +10,4 @@ Answer either A or B
 Prerequisites: <br />
 Python 3.x (written with 3.9.6)
 1. Clone repository
-2. run 'python main.py'
+2. Run: 'python main.py'
