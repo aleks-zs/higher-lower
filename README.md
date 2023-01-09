@@ -1,5 +1,5 @@
 # higher-lower
-## Guessing game
+## Console guessing game
 The aim of the game is to set a high score by guessing which Instagram user has the higher number of followers.
 Based on the selected choice a player either earns a point and continues the game or does not. 
 
